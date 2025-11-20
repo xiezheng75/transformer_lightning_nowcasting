@@ -1,0 +1,48 @@
+# Configuration for transformer lightning nowcasting model
+
+# Model parameters
+model:
+  input_dim: 1
+  d_model: 256
+  nhead: 8
+  num_encoder_layers: 6
+  num_decoder_layers: 6
+  dim_feedforward: 1024
+  dropout: 0.1
+  max_seq_len: 100
+
+# Data parameters
+data:
+  seq_len: 24  # Input sequence length (e.g., 24 hours of historical data)
+  pred_len: 12  # Prediction length (e.g., predict next 12 hours)
+  n_samples: 10000  # Number of samples for synthetic data
+  n_features: 1
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+# Training parameters
+training:
+  batch_size: 32
+  num_epochs: 50
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  loss_alpha: 0.5  # Weight for MSE vs MAE in loss function
+  
+# Optimizer parameters
+optimizer:
+  type: "adam"
+  betas: [0.9, 0.999]
+  
+# Scheduler parameters
+scheduler:
+  type: "step"
+  step_size: 10
+  gamma: 0.5
+
+# Other parameters
+device: "cuda"  # "cuda" or "cpu"
+seed: 42
+save_dir: "checkpoints"
+log_dir: "logs"
+save_every: 10  # Save checkpoint every N epochs
