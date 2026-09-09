@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper it accompanies."
+title: "MS-PDViT: a multi-scale patch-wise-decoder vision transformer for radar-only lightning nowcasting"
+abstract: >-
+  Reference implementation of MS-PDViT, a vision transformer that predicts dense
+  pixel-level lightning probability fields for six 6-minute lead times from radar
+  observations alone. Each spatial patch is decoded independently rather than
+  reconstructing the output field from a single global classification token, and
+  two patch scales are combined with fixed uniform weights.
+type: software
+authors:
+  # TODO before archiving: complete names, ORCIDs and affiliations for every
+  # co-author, in the paper's author order.
+  - given-names: Zheng
+    family-names: Xie
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "TODO"
+version: "1.0.0"
+date-released: "TODO"
+license: MIT
+repository-code: "https://github.com/xiezheng75/transformer_lightning_nowcasting"
+doi: "TODO: Zenodo DOI issued for the archived release"
+keywords:
+  - lightning nowcasting
+  - vision transformer
+  - weather radar
+  - dense prediction
+  - deep learning
+preferred-citation:
+  type: article
+  title: >-
+    TODO: final paper title
+  authors:
+    - given-names: Zheng
+      family-names: Xie
+  journal: "Journal of Geophysical Research: Atmospheres"
+  year: 2026
+  doi: "TODO: paper DOI once assigned"

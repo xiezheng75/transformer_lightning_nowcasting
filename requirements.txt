@@ -1,0 +1,22 @@
+# Runtime dependencies for the MS-PDViT reference implementation.
+#
+# Versions below are lower bounds that the code is known to work against, not
+# pins. PyTorch must match the local CUDA toolkit, so install it first from
+# https://pytorch.org/get-started/locally/ rather than from this file if you
+# need a specific CUDA build.
+#
+#   pip install -r requirements.txt
+
+torch>=2.0            # scaled_dot_product_attention is used in the encoder
+numpy>=1.23
+numba>=0.57           # JIT kernels in features/batch.py
+scipy>=1.10
+matplotlib>=3.6
+pandas>=1.5
+scikit-learn>=1.2     # PR-AUC / average precision in the evaluation path
+Pillow>=9.0           # radar product image decoding
+
+# Optional. static_data_loader.py imports rasterio inside a try/except and is
+# only exercised when static predictors are enabled, which the paper does not do
+# (use_static_data=False in every published configuration).
+# rasterio>=1.3

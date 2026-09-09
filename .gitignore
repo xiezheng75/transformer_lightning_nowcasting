@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Model weights (archived separately; see the paper's Open Research section)
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.h5
+
+# Observational data -- NEVER commit. The radar imagery and lightning records
+# are provided by the Shenzhen Meteorological Bureau and cannot be redistributed.
+data/
+datasets/
+*.csv
+*.nc
+*.hdf
+*.h5
+*.tif
+*.ref
+*.npy
+*.npz
+*.pkl
+
+# Run outputs
+radar_results/
+results/
+logs/
+logs_leadtime/
+*.log
+*.pid
