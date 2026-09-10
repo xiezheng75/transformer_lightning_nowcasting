@@ -1,0 +1,47 @@
+{
+  "title": "MS-PDViT: a multi-scale patch-wise-decoder vision transformer for radar-only lightning nowcasting",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.1",
+  "language": "eng",
+  "description": "<p>Reference implementation of MS-PDViT, a vision transformer that predicts dense pixel-level lightning probability fields for six 6-minute lead times (t+6 to t+36 min) from weather radar alone. Each spatial patch is decoded independently rather than reconstructing the entire output field from a single global classification token, and two patch scales (12 and 50 pixels) are combined with fixed uniform weights.</p><p>This deposit contains source code only. The radar imagery and lightning location observations used in the accompanying paper were provided by the Shenzhen Meteorological Bureau and cannot be redistributed by the authors; see the paper's Open Research section for the data availability statement.</p><p>Accompanies the article submitted to <em>Journal of Geophysical Research: Atmospheres</em>.</p>",
+  "creators": [
+    {
+      "name": "Zheng, Xie",
+      "affiliation": "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+    },
+    {
+      "name": "Ye, Peijun",
+      "affiliation": "Pengcheng Laboratory, Shenzhen, China"
+    },
+    {
+      "name": "Xia, Xin",
+      "affiliation": "Shenzhen National Climate Observatory, Meteorological Bureau of Shenzhen Municipality, Shenzhen, China"
+    },
+    {
+      "name": "Ju, Guoliang",
+      "affiliation": "Pengcheng Laboratory, Shenzhen, China"
+    },
+    {
+      "name": "Wang, Weiwei",
+      "affiliation": "Shenzhen Meteorological Bureau, Shenzhen, China"
+    },
+    {
+      "name": "Chen, Mingli",
+      "affiliation": "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+    },
+    {
+      "name": "Gao, Yan",
+      "affiliation": "Pengcheng Laboratory, Shenzhen, China"
+    }
+  ],
+  "keywords": [
+    "lightning nowcasting",
+    "vision transformer",
+    "weather radar",
+    "dense prediction",
+    "deep learning",
+    "convective weather"
+  ]
+}

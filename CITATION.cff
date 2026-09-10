@@ -8,18 +8,43 @@ abstract: >-
   reconstructing the output field from a single global classification token, and
   two patch scales are combined with fixed uniform weights.
 type: software
+# ORCIDs are omitted rather than guessed: an malformed orcid value fails CFF
+# validation and makes Zenodo reject the deposit. Add them as
+#   orcid: "https://orcid.org/0000-0002-1825-0097"
+# once collected, keeping the exact 16-digit form.
 authors:
-  # TODO before archiving: complete names, ORCIDs and affiliations for every
-  # co-author, in the paper's author order.
-  - given-names: Zheng
-    family-names: Xie
-    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
-    affiliation: "TODO"
-version: "1.0.0"
-date-released: "TODO"
+  - given-names: Xie
+    family-names: Zheng
+    email: will-xie.zheng@connect.polyu.hk
+    affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+  - given-names: Peijun
+    family-names: Ye
+    email: yepj@pcl.ac.cn
+    affiliation: "Pengcheng Laboratory, Shenzhen, China"
+  - given-names: Xin
+    family-names: Xia
+    email: zgzdy305@126.com
+    affiliation: "Shenzhen National Climate Observatory, Meteorological Bureau of Shenzhen Municipality, Shenzhen, China; Shenzhen Meteorological Bureau, Shenzhen, China; Shenzhen Key Laboratory of Severe Weather in South China, Shenzhen, China"
+  - given-names: Guoliang
+    family-names: Ju
+    email: jugl@pcl.ac.cn
+    affiliation: "Pengcheng Laboratory, Shenzhen, China"
+  - given-names: Weiwei
+    family-names: Wang
+    email: wangww33@mail3.sysu.edu.cn
+    affiliation: "Shenzhen Meteorological Bureau, Shenzhen, China"
+  - given-names: Mingli
+    family-names: Chen
+    email: mingli.chen@polyu.edu.hk
+    affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+  - given-names: Yan
+    family-names: Gao
+    email: yan.89.gao@connect.polyu.hk
+    affiliation: "Pengcheng Laboratory, Shenzhen, China"
+version: "1.0.1"
+date-released: "2026-09-10"
 license: MIT
 repository-code: "https://github.com/xiezheng75/transformer_lightning_nowcasting"
-doi: "TODO: Zenodo DOI issued for the archived release"
 keywords:
   - lightning nowcasting
   - vision transformer
@@ -28,11 +53,28 @@ keywords:
   - deep learning
 preferred-citation:
   type: article
-  title: >-
-    TODO: final paper title
+  title: "A multi-scale patch-wise-decoder vision transformer for radar-only lightning nowcasting"
   authors:
-    - given-names: Zheng
-      family-names: Xie
+    - given-names: Xie
+      family-names: Zheng
+      affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+    - given-names: Peijun
+      family-names: Ye
+      affiliation: "Pengcheng Laboratory, Shenzhen, China"
+    - given-names: Xin
+      family-names: Xia
+      affiliation: "Shenzhen National Climate Observatory, Meteorological Bureau of Shenzhen Municipality, Shenzhen, China"
+    - given-names: Guoliang
+      family-names: Ju
+      affiliation: "Pengcheng Laboratory, Shenzhen, China"
+    - given-names: Weiwei
+      family-names: Wang
+      affiliation: "Shenzhen Meteorological Bureau, Shenzhen, China"
+    - given-names: Mingli
+      family-names: Chen
+      affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
+    - given-names: Yan
+      family-names: Gao
+      affiliation: "Pengcheng Laboratory, Shenzhen, China"
   journal: "Journal of Geophysical Research: Atmospheres"
   year: 2026
-  doi: "TODO: paper DOI once assigned"
