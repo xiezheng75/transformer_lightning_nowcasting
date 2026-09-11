@@ -1,5 +1,8 @@
 # MS-PDViT: Multi-Scale Patch-wise-Decoder Vision Transformer for radar-based lightning nowcasting
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22693613.svg)](https://doi.org/10.5281/zenodo.22693613)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Reference implementation for the paper
 
 > *A multi-scale patch-wise-decoder vision transformer for radar-only lightning
@@ -124,7 +127,12 @@ Normalization is a fixed global linear map per channel
 
 ## Citation
 
-If you use this code, please cite the paper (see `CITATION.cff`).
+If you use this code, please cite the paper together with the archived release
+(see `CITATION.cff`). Version 1.0.1 is archived at
+[10.5281/zenodo.22693613](https://doi.org/10.5281/zenodo.22693613); that DOI is
+fixed to this version. The concept DOI
+[10.5281/zenodo.22693612](https://doi.org/10.5281/zenodo.22693612) always
+resolves to the most recent version instead.
 
 ## License
 

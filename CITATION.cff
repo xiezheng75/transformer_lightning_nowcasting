@@ -45,6 +45,15 @@ version: "1.0.1"
 date-released: "2026-09-10"
 license: MIT
 repository-code: "https://github.com/xiezheng75/transformer_lightning_nowcasting"
+# Version DOI: cite this one, it is fixed to v1.0.1.
+doi: "10.5281/zenodo.22693613"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22693613"
+    description: "Archived snapshot of version 1.0.1 (cite this)"
+  - type: doi
+    value: "10.5281/zenodo.22693612"
+    description: "Concept DOI, always resolves to the latest version"
 keywords:
   - lightning nowcasting
   - vision transformer
