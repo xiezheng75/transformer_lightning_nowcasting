@@ -16,6 +16,7 @@ authors:
   - given-names: Xie
     family-names: Zheng
     email: will-xie.zheng@connect.polyu.hk
+    orcid: "https://orcid.org/0009-0001-5713-6086"
     affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
   - given-names: Peijun
     family-names: Ye
@@ -62,10 +63,11 @@ keywords:
   - deep learning
 preferred-citation:
   type: article
-  title: "A multi-scale patch-wise-decoder vision transformer for radar-only lightning nowcasting"
+  title: "Preserving Multiscale Radar Structure with Patch-Token Decoding for Lightning Nowcasting Over the Greater Bay Area"
   authors:
     - given-names: Xie
       family-names: Zheng
+      orcid: "https://orcid.org/0009-0001-5713-6086"
       affiliation: "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
     - given-names: Peijun
       family-names: Ye
@@ -85,5 +87,6 @@ preferred-citation:
     - given-names: Yan
       family-names: Gao
       affiliation: "Pengcheng Laboratory, Shenzhen, China"
-  journal: "Journal of Geophysical Research: Atmospheres"
+  journal: "Journal of Geophysical Research: Machine Learning and Computation"
   year: 2026
+  notes: "Manuscript 2026JH001713, under review."

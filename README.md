@@ -5,8 +5,9 @@
 
 Reference implementation for the paper
 
-> *A multi-scale patch-wise-decoder vision transformer for radar-only lightning
-> nowcasting* (submitted to *Journal of Geophysical Research: Atmospheres*).
+> *Preserving Multiscale Radar Structure with Patch-Token Decoding for Lightning
+> Nowcasting Over the Greater Bay Area* (manuscript 2026JH001713, submitted to
+> *Journal of Geophysical Research: Machine Learning and Computation*).
 
 MS-PDViT predicts dense, pixel-level lightning probability fields for six
 6-minute lead times (t+6 … t+36 min) from radar alone. It reads a 36-minute

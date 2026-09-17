@@ -5,10 +5,11 @@
   "license": "MIT",
   "version": "1.0.1",
   "language": "eng",
-  "description": "<p>Reference implementation of MS-PDViT, a vision transformer that predicts dense pixel-level lightning probability fields for six 6-minute lead times (t+6 to t+36 min) from weather radar alone. Each spatial patch is decoded independently rather than reconstructing the entire output field from a single global classification token, and two patch scales (12 and 50 pixels) are combined with fixed uniform weights.</p><p>This deposit contains source code only. The radar imagery and lightning location observations used in the accompanying paper were provided by the Shenzhen Meteorological Bureau and cannot be redistributed by the authors; see the paper's Open Research section for the data availability statement.</p><p>Accompanies the article submitted to <em>Journal of Geophysical Research: Atmospheres</em>.</p>",
+  "description": "<p>Reference implementation of MS-PDViT, a vision transformer that predicts dense pixel-level lightning probability fields for six 6-minute lead times (t+6 to t+36 min) from weather radar alone. Each spatial patch is decoded independently rather than reconstructing the entire output field from a single global classification token, and two patch scales (12 and 50 pixels) are combined with fixed uniform weights.</p><p>This deposit contains source code only. The radar imagery and lightning location observations used in the accompanying paper were provided by the Shenzhen Meteorological Bureau and cannot be redistributed by the authors; see the paper's Open Research section for the data availability statement.</p><p>Accompanies the manuscript &ldquo;Preserving Multiscale Radar Structure with Patch-Token Decoding for Lightning Nowcasting Over the Greater Bay Area&rdquo; (2026JH001713), submitted to <em>Journal of Geophysical Research: Machine Learning and Computation</em>.</p>",
   "creators": [
     {
       "name": "Zheng, Xie",
+      "orcid": "0009-0001-5713-6086",
       "affiliation": "Department of Building Environment and Energy Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China"
     },
     {
